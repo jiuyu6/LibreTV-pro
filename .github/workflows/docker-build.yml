@@ -11,7 +11,7 @@ jobs:
     name: 'Build LibreTV image'
     runs-on: ubuntu-latest
     # Modified to run on both repositories
-    if: github.repository == 'LibreSpark/LibreTV' || github.repository == 'bestZwei/libretv'
+    if: github.repository == 'LibreSpark/LibreTV' || github.repository == 'bestZwei/libretv1'
     env:
       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
 
